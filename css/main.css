@@ -1,0 +1,195 @@
+/*BASE STYLES*/
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+}
+
+#portfolio, #about, #contact {
+	height: 600px;
+}
+
+/*GRID*/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	height: 350px;
+	margin: 0 auto;
+	float: left;
+}
+
+.third-width {
+	width: 400px;
+	margin: 0 auto;
+	float: left;
+}
+
+/*HEADER*/
+
+header { 
+	height: 800px;
+	background: url('../img/ruby-doan-background.jpg');
+	background-size: cover;
+	overflow: hidden;
+ }
+
+ header h1 {
+ 	padding: 75px 0px 0px 25px;
+ 	font-family: 'Roboto Slab', serif;
+ 	font-size: 60px;
+ 	font-weight: bold;
+ 	color: #A65D92;
+ }
+
+header h2 {
+	padding: 15px 200px 0px 25px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	color: #733030;
+}
+
+/*PORTFOLIO*/
+
+#portfolio h3 {
+	font-family: 'Roboto Slab', serif;
+ 	font-size: 36px;
+ 	font-weight: bold;
+ 	color: #733030;
+ 	padding-left: 500px;
+ 	padding-bottom: 50px;
+}
+
+
+#portfolio img {
+	width: 550px;
+	height: auto;
+}
+
+#portfolio h4 {
+	font-family: 'Roboto', serif;
+ 	font-size: 24px;
+ 	font-weight: bold;
+ 	color: #733030;
+ 	margin: 0;
+ 	padding: 0;
+}
+
+#portfolio p {
+	font-family: 'Roboto', serif;
+ 	font-size: 20px;
+ 	color: #733030;
+ 	margin-top: 0;
+ 	padding-top: 0;
+ }
+
+ /*ABOUT ME*/
+
+#about {
+	
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #C4D4F2;
+	clear: both;
+}
+
+#about h3 {
+	font-family: 'Roboto Slab', serif;
+ 	font-size: 36px;
+ 	font-weight: bold;
+ 	color: #733030;
+ 	padding-left: 500px;
+ 	padding-bottom: 50px;
+}
+
+#about h4 {
+	font-family: 'Roboto', serif;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	color: #733030;
+ 	margin-top: 0;
+ 	padding-top: 0;
+}
+
+#about img {
+	height: auto;
+	width: 550px;
+}
+#about p {
+	font-family: 'Roboto', serif;
+ 	font-size: 20px;
+ 	color: #733030;
+}
+
+/*CONTACT*/
+
+#contact {
+	
+	height: 250px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #F2AA52;
+}
+
+#contact h3 {
+	font-family: 'Roboto Slab', serif;
+ 	font-size: 36px;
+ 	font-weight: bold;
+ 	color: #733030;
+ 	padding-left: 500px;
+ 	padding-bottom: 10px;
+ 	margin-bottom: 0px;
+ 	padding-top: 25px;
+ 	margin-top: 0px;
+}
+
+#contact h4 {
+	font-family: 'Roboto', serif;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	color: #733030;
+ 	margin-top: 0;
+ 	padding-top: 0;
+ 	padding-left: 550px;
+ 	margin-bottom: 0px;
+ 	padding-bottom: 0px;
+}
+
+#contact p {
+	font-family: 'Roboto', serif;
+ 	font-size: 20px;
+ 	color: #733030;
+ 	margin-top: 0;
+ 	padding-top: 0;
+ 	padding-left: 500px;
+ 	margin-bottom: 10px
+ 	padding-bottom: 0;
+ }
+
+ #contact ul {
+	padding-left: 505px;
+ 	display: inline;
+ 	margin-top: 10px;
+ 	padding-bottom: 0px;
+ }
+
+ #contact ul li {
+ 	padding-left: 25px;
+ 	display: inline;
+ }
+
+ /*FOOTER*/
+
+ footer {
+	font-family: 'Roboto', serif;
+ 	font-size: 12px;
+ 	font-weight: bold;
+ 	color: #733030;
+ 	margin-top: 0;
+ 	padding-top: 0;
+ 	padding-left: 615px;
+ 	margin-bottom: 0px;
+ 	padding-bottom: 0px;
+}
